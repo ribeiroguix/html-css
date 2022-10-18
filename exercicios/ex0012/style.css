@@ -1,0 +1,10 @@
+*{
+
+}
+
+.conteudo{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    flex-direction: column-reverse;
+}

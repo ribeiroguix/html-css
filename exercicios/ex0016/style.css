@@ -1,0 +1,17 @@
+h1,h2{
+    background-color:lightpink;
+    border-radius: 15px;
+}
+
+p{
+    background-image: linear-gradient(rgba(23, 23, 138, 0.616),rgba(255, 0, 0, 0.055));
+    border-radius: 15px;
+    text-decoration: solid;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

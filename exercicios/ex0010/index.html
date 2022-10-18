@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Midias dinâmicas</h1>
+    <p>Tente abrir diferentes imagens em varios dispositivos diferentes ou simplismente diminua a janela do navegador</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-pequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-media.png" type="image/png">
+        <img src="imagens/foto-grande.png" alt="imagem flexivel">
+    </picture>
+
+    <header class="container">
+        <div class="meio">
+    <h1>Reproduzindo audio</h1>
+    <p>reproduzindo em html5</p>
+    <audio src="midia/peaky.mp3" controls autoplay></audio></header></div>
+</body>
+</html>

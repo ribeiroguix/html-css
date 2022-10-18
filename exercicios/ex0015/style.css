@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to left, #71E3AC,#EC71F0);
+}
+
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    background-color: rgba(249, 246, 250, 0.192);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h1{
+    color: #D85320;
+    font-style: oblique;
+    text-decoration: underline;
+}
+h2{
+    color: #BA5320;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    text-shadow: 40px;
+}

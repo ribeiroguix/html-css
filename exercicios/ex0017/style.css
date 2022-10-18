@@ -1,0 +1,39 @@
+body{
+    background-color: hsla(239, 95%, 64%, 0.336);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: rgb(0, 81, 255);
+}
+
+#principal{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+h2{
+    color: rgb(127, 129, 255);
+    align-items: center;
+}
+
+.basico{
+    background-color: rgba(0, 0, 255, 0.212);
+    text-align: center;
+
+}
+
+.avancado{
+    background-color: rgba(127, 255, 212, 0.541);
+    text-align: center;
+
+    
+}
+
+.lorem{
+    text-align: justify;
+    text-decoration:overline;
+    text-transform: capitalize;
+}
+
+.
